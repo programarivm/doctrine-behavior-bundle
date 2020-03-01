@@ -1,6 +1,6 @@
 {
-    "name": "programarivm/hello-world-bundle",
-    "description": "Hello world is a simple, ready-to-clone Symfony 5 bundle to be extended as you'd want.",
+    "name": "programarivm/doctrine-behavior-bundle",
+    "description": "This is a collection of Doctrine behaviors.",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Programarivm\\HelloWorldBundle\\": "src/"
+            "Programarivm\\DoctrineBehaviorBundle\\": "src/"
         }
     }
 }

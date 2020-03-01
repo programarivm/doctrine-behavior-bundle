@@ -1,0 +1,19 @@
+<?php
+
+namespace Programarivm\DoctrineBehaviorBundle\Tests;
+
+use Programarivm\DoctrineBehaviorBundle\DoctrineBehavior;
+use PHPUnit\Framework\TestCase;
+
+class DoctrineBehaviorTest extends TestCase
+{
+    /**
+     * @test
+     */
+    public function signal()
+    {
+        $helloWorld = new DoctrineBehavior([]);
+
+        $this->assertStringStartsWith('Hello world!', $helloWorld->signal());
+    }
+}

@@ -5,10 +5,5 @@
         http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="programarivm.hello_world" class="Programarivm\HelloWorldBundle\HelloWorld" public="true">
-            <argument type="collection" />
-        </service>
-        
-        <service id="Programarivm\HelloWorldBundle\HelloWorld" alias="programarivm.hello_world" public="false" />
     </services>
 </container>
